@@ -1,5 +1,5 @@
 #!/bin/bash
-for d in /home/siva/Desktop/learningfolder/* 
+for d in learningfolder/* 
 do
 	cd $d
 	if [ -f "package.json" ] ; then
