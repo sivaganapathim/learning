@@ -1,5 +1,5 @@
 #!/bin/bash
-for d in learningfolder/* 
+for d in learning/* 
 do
 	cd $d
 	if [ -f "package.json" ] ; then
